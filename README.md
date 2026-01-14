@@ -50,6 +50,9 @@ Dedicated UI for:
 - Fully responsive layout  
 - Optimized for mobile, tablet, and desktop screens  
 
+### Theme mode 
+- option for Dark and Light Theme
+
 ---
 
 ## Technology Stack
@@ -109,8 +112,6 @@ Clean and modular component architecture
 Reusable hooks and utility functions
 
 Future Enhancements
-
-Dark / Light theme support
 
 User authentication
 
