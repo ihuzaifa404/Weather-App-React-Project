@@ -33,7 +33,7 @@ function FavoriteButton({ data }: FavoriteButtonProps) {
         <Button variant={isCurrentlyFavorite ? "default" : "outline"}
             size={"icon"}
             onClick={handleFavorite}
-            className={`cursor-pointer ${isCurrentlyFavorite ? "bg-yellow-500 hover:bg-yellow-600 " : ""}`}>
+            className={`cursor-pointer ${isCurrentlyFavorite ? "bg-yellow-500 hover:bg-yellow-600" : ""}`}>
             <Star className={`w-4 h-4 ${isCurrentlyFavorite ? "fill-current" : ""}`} />
         </Button>
     )
