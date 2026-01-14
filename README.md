@@ -83,46 +83,51 @@ src/
 ├── utils/             # Utility functions
 ├── styles/            # Global styles
 └── main.tsx           # App entry point
+```
 
-Installation & Setup
-Clone the Repository
+## Installation & Setup
+### Clone the Repository
+```bash
 git clone https://github.com/ihuzaifa404/Weather-App-React-Project
 cd Weather-App-React-Project
+```
 
-Install Dependencies
+### Install Dependencies
+```bash
 npm install
-
-Environment Variables
+```
+### Environment Variables
 
 Create a .env file in the root directory:
-
+```bash
 VITE_WEATHER_API_KEY=your_api_key_here
-
-Run the Application
+```
+### Run the Application
+```
 npm run dev
+```
+## Performance & Best Practices
 
-Performance & Best Practices
+- Optimized API calls using caching and background refetching
 
-Optimized API calls using caching and background refetching
+- Type-safe codebase with TypeScript
 
-Type-safe codebase with TypeScript
+- Clean and modular component architecture
 
-Clean and modular component architecture
+- Reusable hooks and utility functions
 
-Reusable hooks and utility functions
+## Future Enhancements
 
-Future Enhancements
+- User authentication
 
-User authentication
+- Cloud-based favorites synchronization
 
-Cloud-based favorites synchronization
+- Multi-language support
 
-Multi-language support
+- Offline mode
 
-Offline mode
+## Author
 
-Author
-
-M Huzaifa Butt
-Frontend Developer
-Specialized in React, TypeScript, and modern UI frameworks
+ ### M Huzaifa Butt
+- Frontend Developer
+- Specialized in React, TypeScript, and modern UI frameworks
