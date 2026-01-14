@@ -1,95 +1,77 @@
-Weather Forecast Application
+# Weather Forecast Application
 
-A production-ready, responsive Weather Forecast Application built using React (Vite), TypeScript, TanStack Query, and shadcn/ui.
-The application delivers real-time weather data, location-based forecasts, and interactive visualizations with a modern and accessible user interface.
+A **production-ready, responsive Weather Forecast Application** built using **React (Vite)**, **TypeScript**, **TanStack Query**, and **shadcn/ui**.  
+The application delivers **real-time weather data**, **location-based forecasts**, and **interactive visualizations** with a modern and accessible user interface.
 
-Overview
+---
 
-This project focuses on providing accurate and real-time weather information using modern frontend technologies.
-It supports automatic location detection, manual city search, forecast visualization, and persistent user preferences, ensuring a smooth and user-friendly experience across all devices.
+## Overview
 
-Key Features
-Location-Based Weather
+This project focuses on providing accurate and real-time weather information using modern frontend technologies.  
+It supports **automatic location detection**, **manual city search**, **forecast visualization**, and **persistent user preferences**, ensuring a smooth and user-friendly experience across all devices.
 
-Requests user permission for location access
+---
 
-Automatically detects and displays current city weather
+## Key Features
 
-Graceful error handling when location access is denied
+### 📍 Location-Based Weather
+- Requests user permission for location access  
+- Automatically detects and displays current city weather  
+- Graceful error handling when location access is denied  
 
-Real-Time Weather Data
+### 🌤️ Real-Time Weather Data
+- Displays current temperature, feels-like temperature, humidity, wind speed, pressure, and weather conditions  
+- Data fetched and managed efficiently using **TanStack Query**
 
-Displays current temperature, feels-like temperature, humidity, wind speed, pressure, and weather conditions
+### 📊 Forecast Visualization
+- Graphical representation of weather forecasts  
+- Easy-to-read charts for temperature trends  
 
-Data fetched and managed efficiently using TanStack Query
+### 🔍 City Search
+- Search weather details for any city worldwide  
+- Real-time results with forecast data  
 
-Forecast Visualization
+### ⭐ Favorites Management
+- Add or remove cities from favorites  
+- Persistent favorites using **localStorage**  
+- User-friendly favorite toggle system  
 
-Graphical representation of weather forecasts
+### 🕒 Recent Search History
+- Stores recent searches locally  
+- Option to clear saved history  
 
-Easy-to-read charts for temperature trends
-
-City Search
-
-Search weather details for any city worldwide
-
-Real-time results with forecast data
-
-Favorites Management
-
-Add or remove cities from favorites
-
-Persistent favorites using localStorage
-
-User-friendly favorite toggle system
-
-Recent Search History
-
-Stores recent searches locally
-
-Option to clear saved history
-
-Error Handling & UX
-
+### ⚠️ Error Handling & UX
 Dedicated UI for:
+- Location permission denial  
+- API errors  
+- Invalid city searches  
 
-Location permission denial
+### 📱 Responsive Design
+- Fully responsive layout  
+- Optimized for mobile, tablet, and desktop screens  
 
-API errors
+---
 
-Invalid city searches
+## Technology Stack
 
-Responsive Design
+- **Frontend Framework:** React (Vite)  
+- **Language:** TypeScript  
+- **Data Fetching & Caching:** TanStack Query  
+- **UI Components:** shadcn/ui  
+- **Charts & Visualization:** Forecast graphs  
+- **State Persistence:** Local Storage  
 
-Fully responsive layout
+### APIs Used
+- Geolocation API  
+- Reverse Geocoding API  
+- Real-Time Weather API  
+- Forecast Weather API  
 
-Optimized for mobile, tablet, and desktop screens
+---
 
-Technology Stack
+## Project Structure
 
-Frontend Framework: React (Vite)
-
-Language: TypeScript
-
-Data Fetching & Caching: TanStack Query
-
-UI Components: shadcn/ui
-
-Charts & Visualization: Forecast graphs
-
-State Persistence: Local Storage
-
-APIs:
-
-Geolocation API
-
-Reverse Geocoding API
-
-Real-Time Weather API
-
-Forecast Weather API
-
-Project Structure
+```bash
 src/
 ├── components/        # Reusable UI components
 ├── hooks/             # Custom React hooks
@@ -101,8 +83,8 @@ src/
 
 Installation & Setup
 Clone the Repository
-git clone https://github.com/your-username/weather-app.git
-cd weather-app
+git clone https://github.com/ihuzaifa404/Weather-App-React-Project
+cd Weather-App-React-Project
 
 Install Dependencies
 npm install
