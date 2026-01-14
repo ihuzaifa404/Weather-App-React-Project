@@ -73,7 +73,7 @@ function WeatherForecast({ data }: WeatherForecastProps) {
                                 </span>
                             </div>
 
-                            <div className= "flex justify-end gap-4">
+                            <div className= "lg:flex gap-4 ">
                                 <span className="flex items-center gap-1">
                                     <Droplets className="w-4 h-4 text-blue-500" />
                                         <span className="text-sm ">{day.humidity}%</span>
